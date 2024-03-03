@@ -1,0 +1,97 @@
+*{
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  padding-top: 100px;
+  margin: none;
+  height: 100vh;
+}
+
+.container {
+  max-width: 20%;
+  height: auto;
+  margin: auto;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px ;
+  overflow: hidden;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+img{
+  max-width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+h2{
+  color: white;
+  font-weight: 700;
+  height: 30px;
+  max-width: 100%;
+  margin-bottom: none;
+}
+
+h4 {
+  margin-top: -1em;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 14px;
+  height: 30;
+  max-width: 100%;;
+}
+p{
+  color: white;
+  font-size: 14px;
+  max-width: 100%;
+}
+ul{
+  padding-left: 0;
+  max-width: 100%;
+  margin-bottom:0em;
+}
+ul li {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 20%) ;
+  border-radius: 10px;
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  height: 25px;
+}
+
+ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  cursor: pointer;
+}
+
+
+li {
+  max-width: 100%;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 14;
+}
+
+@media screen and  (max-width: 375px){
+  .container{
+    max-width: 100%;
+    margin: 15px 15px;
+  }
+}
+
+
+
+  @media screen and (min-width : 1445px) {
+    .container {
+      max-width: 20%;
+      height: auto;
+    }
+  }
+
